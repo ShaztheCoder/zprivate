@@ -1,0 +1,35 @@
+{
+    "data": {
+        "additionalWorkers": 0,
+        "availabilityZonePlacement": {
+            "highAvailabilityCrossMultiAZEnabled": false,
+            "initialReplicaAvailabilityZone": "",
+            "initialSourceAvailabilityZone": "",
+            "primaryAvailabilityZone": "",
+            "secondaryAvailabilityZone": ""
+        },
+        "edition": "cloud",
+        "enabledservices": {
+            "docstore": false,
+            "scriptserver": false
+        },
+        "extensionservices": null,
+        "memory": 30,
+        "memoryScaleOut": 0,
+        "productVersion": {
+            "id": "",
+            "releaseCycle": "",
+            "track": ""
+        },
+        "project_name": "",
+        "serviceStopped": false,
+        "slaLevel": "standard",
+        "storage": 120,
+        "systempassword": "WAO_Robotics_HANA_1",
+        "template_name": "",
+        "update_strategy": "with_restart",
+        "vcpu": 2,
+        "versionIndicator": "",
+        "whitelistIPs": []
+    }
+}
