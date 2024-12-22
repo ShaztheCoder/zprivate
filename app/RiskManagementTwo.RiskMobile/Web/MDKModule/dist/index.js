@@ -1,0 +1,2 @@
+var __LOAD_WC_RUNTIME_FROM__="https://mdk-webclient-runtime-preview.cfapps.sap.hana.ondemand.com/preview/";var origFetch=window.fetch;window.fetch=function(t){var t=arguments[0];if(t&&t.startsWith("assets/json/")){arguments[0]=__LOAD_WC_RUNTIME_FROM__+t;return origFetch(arguments[0],{mode:"cors",cache:"no-store"})}return origFetch.apply(window,arguments)};function loadJS(t){if(!t.startsWith("/")){t="./"+t}return import(t)}
+//# sourceMappingURL=index.js.map

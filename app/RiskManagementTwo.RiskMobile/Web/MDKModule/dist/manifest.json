@@ -114,5 +114,9 @@
 	},
 	"sap.platform.cf": {
 		"ui5VersionNumber": "1.96.38"
+	},
+	"sap.cloud": {
+		"public": true,
+		"service": "lcap.RiskManagementTwo"
 	}
 }

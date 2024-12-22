@@ -85,6 +85,12 @@
       "options": {
         "cwd": "${workspaceFolder}/"
       }
+    },
+    {
+      "type": "npm",
+      "label": "buildmdk - app/RiskManagementTwo.RiskMobile/Web/MDKModule",
+      "path": "app/RiskManagementTwo.RiskMobile/Web/MDKModule",
+      "script": "buildmdk"
     }
   ]
 }
