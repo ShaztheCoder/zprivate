@@ -1,0 +1,54 @@
+{
+    "Credential": "cf",
+    "Template": {
+        "Id": "@ext-mdkvsc-npm-dev/generator-mdk",
+        "Name": "CRUD",
+        "Version": "0.0.1"
+    },
+    "CF": {
+        "Target": "",
+        "Organization": "",
+        "Space": "",
+        "Deploy": {
+            "Description": "RiskMobile",
+            "WebClient": {
+                "Runtime": "preview",
+                "URL": ""
+            },
+            "Destination": [{
+                "CF": "RiskManagementTwo-app-srv",
+                "MDK": "../service/RiskManagementTwoService/",
+                "URL": ""
+            }]
+        }
+    },
+    "MobileService": {
+        "Type": "standard",
+        "AdminAPI": "",
+        "AppId": "lcap.RiskManagementTwo.RiskManagementTwo.RiskMobile",
+        "Destination": []
+    },
+    "Onboarding": {
+        "Schema": "sapmobilesvcs",
+        "TimeZone": "UTC",
+        "URL": ""
+    },
+    "LCAP": {
+        "FullName": "RiskManagementTwo.RiskMobile",
+        "Service": [{
+            "mdk": "RiskManagementTwo.RiskMobile/Services/RiskManagementTwoService.service",
+            "cap": {
+                "name": "RiskManagementTwoService",
+                "sourcePath": "srv/service.cds",
+                "path": "/service/RiskManagementTwoService/",
+                "entryPath": "/service/RiskManagementTwoService",
+                "destination": "RiskManagementTwo-app-srv",
+                "value": "0"
+            }
+        }],
+        "sourceTemplate": {
+            "id": "html5moduletemplates.basicSAPUI5ApplicationProjectModule",
+            "version": "1.40.12"
+        }
+    }
+}
