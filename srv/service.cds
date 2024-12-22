@@ -10,7 +10,7 @@ service RiskManagementTwoService
         { grant : [ '*' ], to : [ 'RiskViewer' ] },
         { grant : [ '*' ], to : [ 'RiskManager' ] }
     ];
-
+//h
     annotate Risks with @restrict :
     [
         { grant : [ '*' ], to : [ 'RiskManager' ] },
